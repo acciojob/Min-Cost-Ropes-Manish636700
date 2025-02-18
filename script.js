@@ -10,7 +10,7 @@ function mincost(arr)
 			const first = arr.shift();
 			const second = arr.shift();
 			const cost = first+second;
-				total = total+const;
+				total = total+cost;
 			arr.push(cost);
 			arr.sort((a,b)=>a-b);
 		}
